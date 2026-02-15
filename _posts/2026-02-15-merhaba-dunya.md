@@ -1,8 +1,11 @@
 ---
-title: Merhaba Dünya
+title: eps1.0_hellofriend.mov
 date: 2026-02-15 20:00:00 +0300
 categories: [Genel, Duyuru]
 tags: [merhaba, ilk-yazi]
+image:
+  path: /assets/img/headers/eps1.0_hellofriend.png
+  alt: eps1.0_hellofriend.mov
 ---
 
 # BinaryBear's Forge'a Hoş Geldiniz!
