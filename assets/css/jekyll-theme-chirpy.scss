@@ -1,0 +1,52 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Custom Dark Red Theme */
+html[data-mode="dark"] {
+  /* Backgrounds */
+  --main-bg: #0f0202;         /* Very dark red/black main background */
+  --sidebar-bg: #1a0404;      /* Dark red sidebar */
+  --card-bg: #240a0a;         /* Card background */
+  --card-header-bg: #2d0d0d;
+  --topbar-bg: rgba(26, 4, 4, 0.7);
+  
+  /* Text & Links */
+  --link-color: #ff6b6b;      /* Soft red for links */
+  --link-underline-color: #ff6b6b;
+  --heading-color: #ffcece;   /* Very light red for headings */
+  --text-muted-color: #b08d8d;
+  
+  /* Sidebar & Navigation */
+  --sidebar-active-color: #ff4d4d;
+  --sidebar-hover-bg: #330a0a;
+  --sidebar-btn-bg: #2b0808;
+  --nav-cursor-color: #ff4d4d;
+  
+  /* Elements */
+  --toc-highlight: #ff4d4d;
+  --tag-hover: #330a0a;
+  --btn-bg: #2b0808;
+  --btn-border-color: #3d0f0f;
+  --btn-primary-bg: #8b0000;
+  --btn-primary-hover-bg: #a30000;
+  --mask-bg: rgba(68, 10, 10, 0.9);
+  
+  /* Search & Input */
+  --search-tag-bg: #2b0808;
+  --input-focus-border-color: #ff4d4d;
+}
+
+/* Also apply to light mode if desired, or keep light mode standard? 
+   User asked for "dark red theme", likely implies dark mode preference. 
+ */
+:root {
+    /* Set default preference to dark variables if user hasn't toggled */
+    color-scheme: dark;
+}
