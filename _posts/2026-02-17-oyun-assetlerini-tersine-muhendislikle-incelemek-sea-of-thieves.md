@@ -5,7 +5,7 @@ date: 2026-02-17 01:14:00 +0300
 categories: [Tersine Mühendislik, Oyun Geliştirme]
 tags: [reverse-engineering, sea-of-thieves, unreal-engine, 3d-printing]
 image:
-  path: https://static.wikia.nocookie.net/seaofthieves_gamepedia/images/1/14/Sea_of_Thieves_cover_art.jpg/revision/latest/scale-to-width-down/1200?cb=20211226054951
+  path: /assets/img/posts/2026-02-17-sea-of-thieves/cover.jpg
   alt: Sea of Thieves Cover Art
 ---
 
